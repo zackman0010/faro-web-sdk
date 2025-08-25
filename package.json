@@ -53,6 +53,8 @@
     "drone:sign": "drone --server https://drone.grafana.net sign --save grafana/faro-web-sdk .drone/drone.yml"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
     "@grafana/eslint-config": "^8.0.0",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
@@ -62,6 +64,7 @@
     "@types/jest": "^30.0.0",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^7.18.0",
+    "babel-jest": "^30.0.5",
     "cypress": "^15.0.0",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^10.0.1",

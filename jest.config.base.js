@@ -12,6 +12,8 @@ exports.jestBaseConfig = {
         tsconfig: 'tsconfig.spec.json',
       },
     ],
+    '^.+\\.js$': 'babel-jest',
   },
   testEnvironment: 'jsdom',
+  transformIgnorePatterns: ['node_modules/(?!(@stylistic/eslint-plugin-ts)/)'],
 };
